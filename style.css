@@ -64,7 +64,7 @@ h1 {
 }
 
 .section-photos>div {
-    width: 25%;
+    /* width: 25%; */
     height: 400px;
     background-size: cover;
 }
@@ -129,10 +129,6 @@ span {
     top: 50%;
 }
 
-.carousel-caption>h1 {
-    font-size: 80px;
-}
-
 .button-theme {
     background-color: #ebcd1e;
 }
@@ -146,4 +142,29 @@ span {
     /* object-fit: cover;
     height: 424px; */
     height: auto;
+}
+
+.testimonial-box {
+    background-color: #222222;
+    color: white;
+}
+
+.testimonial-box>p>i {
+    color: yellow;
+}
+
+.footer-section {
+    background-image: url("bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    padding-top: 50px;
 }
