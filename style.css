@@ -7,7 +7,7 @@
 }
 
 .header-items li a:hover {
-    color: yellow;
+    color: #EBCD1E;
 }
 
 .header-icons i {
@@ -15,11 +15,11 @@
 }
 
 .header-icons i:hover {
-    color: yellow;
+    color: #EBCD1E;
 }
 
 .header-items-item a:hover {
-    background-color: yellow;
+    background-color: #EBCD1E;
 }
 
 .mini-cart-counter {
@@ -29,7 +29,7 @@
     line-height: 16px;
     font-size: 11px;
     color: #333333;
-    background-color: #ebcd1e;
+    background-color: #EBCD1E;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -117,11 +117,11 @@ button {
 }
 
 .process-box i {
-    color: yellow;
+    color: #EBCD1E;
 }
 
 span {
-    color: yellow;
+    color: #EBCD1E;
 }
 
 .carousel-caption {
@@ -130,7 +130,7 @@ span {
 }
 
 .button-theme {
-    background-color: #ebcd1e;
+    background-color: #EBCD1E;
 }
 
 .button-theme:hover {
@@ -139,8 +139,6 @@ span {
 
 .fit-image {
     width: 100%;
-    /* object-fit: cover;
-    height: 424px; */
     height: auto;
 }
 
@@ -150,7 +148,7 @@ span {
 }
 
 .testimonial-box>p>i {
-    color: yellow;
+    color: #EBCD1E;
 }
 
 .footer-section {
@@ -167,4 +165,80 @@ span {
     color: #fff;
     height: auto;
     padding-top: 50px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.copyright {
+    background-color: black;
+    color: #626262;
+    text-align: center;
+    font-size: 11px;
+    padding: 15px 0;
+}
+
+.section-copyright>span {
+    color: #EBCD1E;
+}
+
+.send-button {
+    background-color: #EBCD1E;
+    color: #FEFFF8;
+}
+
+.send-button:hover {
+    background-color: #333;
+    color: #FEFFF8;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 25%;
+}
+
+@media only screen and (max-width: 280px) {
+    h3 {
+        font-size: x-small;
+    }
+    h1 {
+        font-size: xx-small;
+    }
+    button {
+        font-size: x-small;
+    }
+}
+
+
+/* @media only screen and (max-width: 375px) {
+    h3 {
+        font-size: x-small;
+    }
+    h1 {
+        font-size: xx-small;
+    }
+    button {
+        font-size: x-small;
+    }
+} */
+
+@media only screen and (max-width: 375px) {
+    .carousel-caption {
+        top: 30px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .carousel-caption {
+        top: 30px;
+        padding-top: 30px;
+    }
+    .carousel-caption>h3,
+    h1 {
+        font-size: 1rem;
+    }
 }
